@@ -8,16 +8,11 @@ I = np.array([[1, 2, 3],
               [10, 20, 30],
               [100, 200, 300]])
 
-forward_shifted = np.concatenate([I[1:, :], I[-1:, :]])
-D = np.subtract(forward_shifted, I)
 
-backward_shifted = np.concatenate([I[:1, :], I[:-1, :]])
-B = np.subtract(I, backward_shifted)
+a = np.zeros([3,5])
 
-print(forward_shifted)
-print(D)
+for i in range(3):
+    for j in range(5):
+        a[i][j] = i+1
 
-print("---------------------")
-
-print(backward_shifted)
-print(B)
+print(a)
