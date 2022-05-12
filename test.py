@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import matplotlib.colors as colors
 
-z = 10
-print(np.exp(-z))
-
+a = np.array([1,2,3])
+b = np.array([1,0,1])
+print(a*b)
+print(-a)
