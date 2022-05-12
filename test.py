@@ -4,5 +4,6 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import matplotlib.colors as colors
 
-a = np.log(1)
-print(a)
+z = 10
+print(np.exp(-z))
+
