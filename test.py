@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import matplotlib.colors as colors
 
-a = np.array([0,1,0,1,0])
-b = np.array([0,1,0,0,1])
-res = np.sum(np.abs(a-b))
-print(res)
+a = np.array([1,2,3,4,5])
+b = np.array([0,1,2,0,1])
 
+print(1/a)
