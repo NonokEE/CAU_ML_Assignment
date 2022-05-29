@@ -4,10 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import matplotlib.colors as colors
 
-a = np.array([1,2,3,4,5])
-
-
-print((np.where(a == 5)[0][0]))
-
-a[1] = 5
+a = np.array([3.14, 5.92])
+print(type(a[0]))
+a = np.int32(a)
 print(a)
+print(type(a[0]))
